@@ -14,5 +14,6 @@ public class MainView {
 	public void initialize() {
 		System.out.println(embeddedRedViewController);
 		System.out.println(embeddedRedView);
+		embeddedRedViewController.foo("YEHA");
 	}
 }
